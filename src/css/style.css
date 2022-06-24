@@ -52,7 +52,7 @@ body {
 
 .container .content-container .content-project h2 {
     color: white;
-    background-image: linear-gradient(to left, #27A38C, #1D7DB6);
+    border: 2px solid white;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -96,10 +96,15 @@ body {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 20px;
+    display: block;
+    border: 2px solid white;
+    padding: 5px;
+    transition: 0.2s ease-in-out;
 }
 
 .container .content-container .content-project .project .links a:hover {
-    text-decoration: underline;
+    border: 2px solid #E64B3C;
+    color: #E64B3C;
 }
 
 .container .content-container .project.proj1 {
