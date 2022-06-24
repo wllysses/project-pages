@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #2C3E50;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.cabecalho {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+.cabecalho h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.container {
+    min-height: 750px;
+    width: 100%;
+}
+
+.container .content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .content-container .content-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    margin: 10px;
+}
+
+.container .content-container .content-project h2 {
+    color: white;
+    background-image: linear-gradient(to left, #27A38C, #1D7DB6);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container .content-container .project {
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.links {
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5px;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+}
+
+.mostrar {
+    opacity: 1;
+}
+
+.container .content-container .content-project .project .links a {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container .content-container .content-project .project .links a:hover {
+    text-decoration: underline;
+}
+
+.container .content-container .project.proj1 {
+    background-image: url('../imagens/projeto1.png');
+}
+
+.container .content-container .project.proj2 {
+    background-image: url('../imagens/projeto2.png');
+}
+
+.container .content-container .project.proj3 {
+    background-image: url('../imagens/projeto3.PNG');
+}
+
+.container .content-container .project.proj4 {
+    background-image: url('../imagens/projeto4.PNG');
+}
+
+.container .content-container .project.proj5 {
+    background-image: url('../imagens/projeto5.PNG');
+}
+
+.container .content-container .project.proj6-7 {
+    background-image: url('../imagens/projeto6-7.PNG');
+}
+
+.container .content-container .project.proj8 {
+    background-image: url('../imagens/projeto8.PNG');
+}
+
+.container .content-container .project.proj9 {
+    background-image: url('../imagens/projeto9.PNG');
+}
+
+.container .content-container .project.proj10 {
+    background-image: url('../imagens/projeto010.PNG');
+}
+
+.rodape {
+    color: white;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.rodape p a {
+    color: #2ec0b1;
+}
+
+@media(max-width: 1400px) {
+    .rodape {
+        min-height: 50px;
+    }
+}
